@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav-bar{
+/*    background-color: rgb(52, 48, 65);*/
+    color: white;
+    font-family: "Mr Eaves Mod OT";
+    text-transform: uppercase;
+    height: 76px;
+}
+
+a{
+    color: white;
+}
+
+.hero-box {
+    
+}
+.hero-image {
+    width: 100%;
+}
