@@ -13,16 +13,19 @@ a{
     color: white;
 }
 
+header {
+    background-image: url("../images/eye-in-the-sky.png");
+    height: 768px;
+    background-repeat: no-repeat;
+}
+
 .hero-box {
-    
+    background-image: url("../images/eye-in-the-sky.png");
 }
 .hero-image {
     width: 100%;
 }
 
-nav ul{
-    background-color: #f8f9fa !important;
-}
 
 @media (max-width: 768px){
     .hero-image{
