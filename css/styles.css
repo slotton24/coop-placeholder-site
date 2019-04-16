@@ -3,42 +3,54 @@
 
 
 #nav-bar{
-/*    background-color: rgb(52, 48, 65);*/
     color: white;
     font-family: "Mr Eaves Mod OT";
     text-transform: uppercase;
-/*    height: 10vh;*/
     background-color: rgba(0, 0, 0, 0.64);
+/*    display: flex;*/
+    justify-content: space-between;
+}
+
+nav img{
+    width: 5rem;
+}
+
+body{
+    background-color: #313131;
 }
 
 
-body{
-/*    background-color: #313131;*/
-    background-image: url("../images/Hero Box.png");
+
+    .hero-box{
+        background-image: url("../images/hero-box-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 88vh;
+    }
+
+
+
+
+
+
+
+
+
+@media(min-width:400px){
+
+}
+
+
+
+/*Big Monitors*/
+@media(min-width: 1366px){
+.hero-box {
+    background-image: url("../images/hero-box-desktop.png");
     background-color: #313131;
     background-size: contain;
     background-position: top, center;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;  
 }
-
-
-
-.hero-box {
-/*
-    background-image: url("../images/eye-in-the-sky.png");
-    background-color: #313131;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 100%;
-*/
-    
-}
-
-
-.hero-image {
-    max-width: 100%;
-    height: auto;
 }
 
