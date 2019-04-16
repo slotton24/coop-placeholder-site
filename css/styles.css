@@ -5,6 +5,7 @@
 #nav-bar{
     color: white;
     font-family: "Mr Eaves Mod OT";
+    font-size: 1.2rem;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.64);
 /*    display: flex;*/
@@ -13,6 +14,10 @@
 
 nav img{
     width: 5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
 }
 
 body{
@@ -31,18 +36,46 @@ body{
 
 
 
+/*Small devices - landscape phones, 576px and up */
+@media(min-width: 576px){
+    
+}
 
 
+/*Medium devices - tablets, 768px and up */
+@media(min-width: 768px){
+    
+}
 
 
+/*Standard Desktops - Desktops 992px and up */
+@media(min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.7rem;
+        padding-left: 0.5rem;
+}
+    
+    .dropdown-menu{
+        margin: 1.125rem 0px 0px -26%;
+    }
+}
 
-@media(min-width:400px){
 
+/*Large Devices - Large Desktops 1200px and up*/
+@media(min-width: 1200px){
+    
 }
 
 
 
-/*Big Monitors*/
+/*Very Big Monitors*/
 @media(min-width: 1366px){
 .hero-box {
     background-image: url("../images/hero-box-desktop.png");
