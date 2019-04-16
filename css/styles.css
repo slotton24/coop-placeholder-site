@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
+#landing-page{
+    background-color: #313131;
+}
 
 #nav-bar{
     color: white;
@@ -36,11 +39,6 @@ nav h1{
     color: white;
 }
 
-body{
-    background-color: #313131;
-}
-
-
 
 .hero-box{
     background-image: url("../images/hero-box-mobile.png");
@@ -49,6 +47,12 @@ body{
     height: 88vh;
     }
 
+#contact-us-container{
+    position: absolute;
+    top: 69vh;
+    display: flex;
+    justify-content: center;
+}
 
 
 
