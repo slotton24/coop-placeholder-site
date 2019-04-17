@@ -90,12 +90,26 @@ nav h1{
         height: 0;
         padding-bottom: 89.85%;
     }
-}
+    
 
 
 /*Medium devices - tablets, 768px and up */
 @media(min-width: 768px){
+    #contact-us-container{
+        position: relative;
+        top: 45vh;
+        display: flex;
+        justify-content: flex-end;
+        max-width: 100%;
+        padding-right: 10%;
+    }
     
+    .btn-lg{
+        font-size: 2rem;
+        background-color: #109BC3;
+        color: white;
+        width: auto;
+    }
 }
 
 
