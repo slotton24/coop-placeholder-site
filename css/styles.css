@@ -27,6 +27,8 @@ nav img{
 nav h1{
     font-size: 0.85rem;
     margin: 0px;
+    font-family: inherit;
+    font-weight: 300;
 }
 
 .title-link{
@@ -61,6 +63,12 @@ nav h1{
 
 .btn-lg{
     font-size: 1.5rem;
+    background-color: #109BC3;
+    color: white;
+    width: 70%;
+}
+.btn-lg:hover{
+    background-color: #28C1ED;
 }
 
 /*Small devices - landscape phones, 576px and up */
