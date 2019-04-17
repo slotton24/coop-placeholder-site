@@ -46,12 +46,15 @@ nav h1{
 }
 
 
-.hero-box{
+.hero-box {
     background-image: url("../images/hero-box-mobile.png");
-    background-size: cover;
+    background-size: contain;
+    background-position: top, center;
     background-repeat: no-repeat;
-    height: 88vh;
-    }
+    width: 100%;
+    height: 0;
+    padding-bottom: 172.5%;
+}
 
 #contact-us-container{
     position: relative;
@@ -78,11 +81,14 @@ nav h1{
     margin: 0px 2rem;
     }
     
-    .hero-box{
-    background-image: url("../images/hero-box-tablet.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    .hero-box {
+        background-image: url("../images/hero-box-tablet.png");
+        background-size: contain;
+        background-position: top, center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-bottom: 89.85%;
     }
 }
 
@@ -95,16 +101,7 @@ nav h1{
 
 /*Large Devices - Desktops 992px and up */
 @media(min-width: 992px){
-    .hero-box {
-        background-image: url("../images/hero-box-desktop.png");
-        background-size: contain;
-        background-position: top, center;
-        background-repeat: no-repeat;
-/*        width: 100%;*/
-        height: 0; 
-        padding-bottom: 50.52%;
-        
-    }
+
     
     .navbar-expand-lg .navbar-collapse {
         display: -ms-flexbox !important;
@@ -126,7 +123,15 @@ nav h1{
 
 /*Very Large Devices - Large Desktops 1200px and up*/
 @media(min-width: 1200px){
-    
+    .hero-box {
+        background-image: url("../images/hero-box-desktop.png");
+        background-size: contain;
+        background-position: top, center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-bottom: 50.52%;
+    }
 }
 
 
