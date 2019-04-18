@@ -68,17 +68,52 @@ nav h1{
     font-size: 1.5rem;
     background-color: #109BC3;
     color: white;
-    width: 70%;
+    width: 70vw;
 }
+
 .btn-lg:hover{
-    background-color: #28C1ED;
+    background-color: #28C1ED;   
+}
+
+.services-box{
+    background-image: url("../images/services-box.png");
+    background-size: cover;
+}
+
+.section-heading{
+    display: flex;
+    justify-content: center;
+    font-family: mr-eaves-modern;
+    color: white;
+    font-size: 2rem;
+    padding-top: 3%;
+}
+
+.more-dots{
+    align-self: flex-end;
+}
+
+.figure-img{
+    display: flex;
+    justify-content: center;
+}
+
+.figure-image{
+    margin-bottom: 10px;
+}
+
+.figure-caption{
+    font-family: mr-eaves-modern;
+    color: white;
+    font-size: 1rem;
+    
 }
 
 /*Small devices - landscape phones, 576px and up */
 @media(min-width: 565px){
     nav h1{
-    font-size: 2rem;
-    margin: 0px 2rem;
+        font-size: 1.7rem;
+        margin-left: 2rem;
     }
     
     .hero-box {
@@ -124,8 +159,9 @@ nav h1{
         flex-basis: auto;
         justify-content: flex-end;
     }
+    
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 1.7rem;
+        padding-right: 1.5rem;
         padding-left: 0.5rem;
 }
     
