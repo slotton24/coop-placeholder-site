@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Whole-page styles*/
+
 #landing-page{
     background-color: #313131;
 }
@@ -45,6 +47,7 @@ nav h1{
     color: white;
 }
 
+/*Home Page - Hero Box*/
 
 .hero-box {
     background-image: url("../images/hero-box-mobile.png");
@@ -69,11 +72,14 @@ nav h1{
     background-color: #109BC3;
     color: white;
     width: 70vw;
+    border: none;
 }
 
 .btn-lg:hover{
     background-color: #28C1ED;   
 }
+
+/*Home Page - Services Box*/
 
 .services-box{
     background-image: url("../images/services-box.png");
@@ -86,7 +92,8 @@ nav h1{
     font-family: mr-eaves-modern;
     color: white;
     font-size: 2rem;
-    padding-top: 3%;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .more-dots{
@@ -105,8 +112,41 @@ nav h1{
 .figure-caption{
     font-family: mr-eaves-modern;
     color: white;
-    font-size: 1rem;
-    
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.more-figure{
+    display: none;
+}
+
+.more-figure-caption{
+    display: none;
+}
+
+.learn-more-button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#services-btn{
+    color: #109BC3;
+    background-color: white;
+    border: none;
+}
+
+/*Home Page - Supply Box*/
+
+.supply-box{
+    background-image: url("../images/supply-box.png");
+    background-size: cover;
+}
+
+#supply-btn{
+    color: #F83735;
+    background-color: white;
+    border: none;
 }
 
 /*Small devices - landscape phones, 576px and up */
