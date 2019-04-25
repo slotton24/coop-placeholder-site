@@ -168,6 +168,10 @@ nav h1{
     background-color: #F96A68;
 }
 
+#supply-section-desktop{
+    display: none;
+}
+
 /*Small devices - landscape phones, 576px and up */
 @media(min-width: 565px){
     nav h1{
