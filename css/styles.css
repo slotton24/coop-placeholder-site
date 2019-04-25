@@ -82,6 +82,10 @@ nav h1{
     background-color: #28C1ED;   
 }
 
+.lead{
+    font-size: 1.5rem;
+}
+
 /*Home Page - Services Box*/
 
 .services-box{
@@ -110,6 +114,11 @@ nav h1{
 
 .figure-image{
     margin-bottom: 10px;
+    transition: transform 2s;
+}
+
+.figure-image:hover{
+    transform: scale(1.1);
 }
 
 .figure-caption{
@@ -119,24 +128,26 @@ nav h1{
     padding-bottom: 3rem;
 }
 
-.more-figure{
-    display: none;
-}
-
-.more-figure-caption{
-    display: none;
-}
-
 .learn-more-button{
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
-#services-btn{
+.services-btn{
     color: #109BC3;
     background-color: white;
     border: none;
+}
+
+.services-btn:hover{
+    color: white;
+    background-color: #28C1ED;
+}
+
+#services-section-desktop{
+    display: none;
 }
 
 /*Home Page - Supply Box*/
@@ -146,10 +157,15 @@ nav h1{
     background-size: cover;
 }
 
-#supply-btn{
+.supply-btn{
     color: #F83735;
     background-color: white;
     border: none;
+}
+
+.supply-btn:hover{
+    color: white;
+    background-color: #F95553;
 }
 
 /*Small devices - landscape phones, 576px and up */
@@ -180,13 +196,12 @@ nav h1{
 
 /*Medium devices - tablets, 768px and up */
 @media(min-width: 768px){
-    
+ 
+
     .btn-lg{
         font-size: 2rem;
-        background-color: #109BC3;
-        color: white;
-        width: auto;
     }
+
 }
 
 
@@ -209,6 +224,39 @@ nav h1{
     
     .dropdown-menu{
         margin: 1.125rem 0px 0px -26%;
+    }
+    
+    .section-heading{
+        font-size: 3rem;
+    }
+    
+    #services-section-mobile{
+        display: none;
+    }
+    
+    #supply-section-mobile{
+        display: none;
+    }
+    
+    #services-section-desktop{
+        display: block;
+    }
+    
+    #supply-section-desktop{
+        display: block;
+    }
+    
+    .section-box{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .more-figure{
+        display: flex;
+    }
+    
+    .more-figure-caption{
+        display: flex;
     }
 }
 
