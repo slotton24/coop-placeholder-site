@@ -51,6 +51,10 @@ nav h1{
     color: white;
 }
 
+footer{
+    justify-content: space-evenly;
+}
+
 /*Home Page - Hero Box*/
 
 .hero-box {
@@ -212,6 +216,9 @@ nav h1{
 /*Large Devices - Desktops 992px and up */
 @media(min-width: 992px){
 
+    footer{
+        justify-content: space-around;
+    }
     
     .navbar-expand-lg .navbar-collapse {
         display: -ms-flexbox !important;
