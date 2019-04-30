@@ -49,7 +49,6 @@ nav h1{
 
 footer{
     justify-content: space-evenly;
-    position: sticky-bottom;
 }
 
 iframe{
@@ -227,16 +226,17 @@ iframe{
         font-size: 2rem;
     }
     
+    footer{
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+    
 }
 
 
 
 /*Large Devices - Desktops 992px and up */
 @media(min-width: 992px){
-
-    footer{
-        justify-content: space-around;
-    }
     
     .navbar-expand-lg .navbar-collapse {
         display: -ms-flexbox !important;
