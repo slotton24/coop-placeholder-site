@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Whole-page styles*/
+
+#landing-page{
+    background-color: #313131;
+}
+
+#services-page{
+    background-color: #F83735;
+}
+
+#nav-bar{
+    color: white;
+    font-family: "mr-eaves-modern";
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.64);
+/*    display: flex;*/
+    justify-content: space-between;
+}
+
+nav img{
+    width: 5rem;
+    margin-right: -15px;
+}
+
+nav h1{
+    font-size: 0.85rem;
+    margin: 0px;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#farmshots-nav{
+    display: none;
+}
+
+.title-link{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.title-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+/*Home Page - Hero Box*/
+
+.hero-box {
+    background-image: url("../images/hero-box-mobile.png");
+    background-size: contain;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 172.5%;
+    display: flex;
+}
+
+#contact-us-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25%;
+}
+
+.btn-lg{
+    font-size: 1.5rem;
+    background-color: #109BC3;
+    color: white;
+    width: 70vw;
+    border: none;
+}
+
+.btn-lg:hover{
+    background-color: #28C1ED;   
+}
+
+/*Home Page - Services Box*/
+
+.services-box{
+    background-image: url("../images/services-box.png");
+    background-size: cover;
+}
+
+.section-heading{
+    display: flex;
+    justify-content: center;
+    font-family: mr-eaves-modern;
+    color: white;
+    font-size: 1.9rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.figure-img{
+    display: flex;
+    justify-content: center;
+}
+
+.figure-image{
+    margin-bottom: 10px;
+}
+
+.figure-caption{
+    font-family: mr-eaves-modern;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.more-figure{
+    display: none;
+	align-self: flex-end;
+}
+
+.more-figure-caption{
+    display: none;
+}
+
+.learn-more-button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#services-btn{
+    color: #109BC3;
+    background-color: white;
+    border: none;
+}
+
+/*Home Page - Supply Box*/
+
+.supply-box{
+    background-image: url("../images/supply-box.png");
+    background-size: cover;
+}
+
+#supply-btn{
+    color: #F83735;
+    background-color: white;
+    border: none;
+}
+
+/*Small devices - landscape phones, 576px and up */
+@media(min-width: 565px){
+    nav h1{
+        font-size: 1.7rem;
+        margin-left: 2rem;
+    }
+    
+    .hero-box {
+        background-image: url("../images/hero-box-tablet.png");
+        background-size: contain;
+        background-position: top, center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 89.85%;
+    }
+    
+    .btn-lg{
+        width: auto;
+}
+
+#contact-us-container{
+        justify-content: flex-end;
+    }
+}
+
+/*Medium devices - tablets, 768px and up */
+@media(min-width: 768px){
+    
+    .btn-lg{
+        font-size: 2rem;
+        background-color: #109BC3;
+        color: white;
+        width: auto;
+    }
+}
+
+
+/*Large Devices - Desktops 992px and up */
+@media(min-width: 992px){
+
+    
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 0.5rem;
+}
+    
+    .dropdown-menu{
+        margin: 1.125rem 0px 0px -26%;
+    }
+
+	.more-figure{
+    	display: flex;
+	}
+
+	.more-figure-caption{
+    	display: flex;
+	}
+
+	#figure-container{
+		display: inline-flex;
+	}
+	
+}
+
+
+/*Very Large Devices - Large Desktops 1200px and up*/
+@media(min-width: 1200px){
+    .hero-box {
+        background-image: url("../images/hero-box-desktop.png");
+        background-size: contain;
+        background-position: top, center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 50.52%;
+    }
+    
+    #contact-us-container{
+        padding-bottom: 10%;
+        padding-right: 4%;
+        max-width: 100%;
+    }
+}
+
+
+
+

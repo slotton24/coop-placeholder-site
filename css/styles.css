@@ -8,7 +8,8 @@ body{
 }
 
 #services-page{
-    background-color: #F83735;
+     background-image: url("../images/services-box.png");
+    background-size: cover;
 }
 
 #nav-bar{
@@ -191,6 +192,45 @@ iframe{
 }
 
 
+/*About us Page*/
+
+.about-heading{
+    display: flex;
+    justify-content: center;
+}
+
+/*Services Page*/
+
+.services-heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: mr-eaves-modern;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+.services-section-heading{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.services-img{
+    border-radius: 0.5rem;
+}
+
+#fuel-truck-container{
+    background-image: url("../images/fuel-truck-full (small).JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 54.042%;
+    display: flex;
+    border-radius: 0.5rem;
+}
 
 /*Small devices - landscape phones, 576px and up */
 @media(min-width: 565px){
@@ -217,6 +257,14 @@ iframe{
         justify-content: flex-end;
     }
     
+    .services-heading{
+        font-size: 3.5rem;
+    }
+    
+    #fuel-truck-container{
+        display: flex; 
+        justify-content: center;
+    }
 }
 
 /*Medium devices - tablets, 768px and up */
@@ -231,6 +279,19 @@ iframe{
         padding: 0 1rem;
     }
     
+    .services-heading{
+        font-size: 4.5rem;
+    }
+    
+    .services-section-heading{
+        font-size: 2rem;
+    }
+    
+    #fuel-truck-container{
+         background-image: url("../images/fuel-truck-full (Medium).JPG");
+        
+    }
+
 }
 
 
