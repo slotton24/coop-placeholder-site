@@ -8,8 +8,15 @@ body{
 }
 
 #services-page{
-     background-image: url("../images/services-box.png");
+    background-image: url("../images/services-box-v2.png");
     background-size: cover;
+	background-attachment: fixed;
+}
+
+#supply-page{
+	background-image: url("../images/supply-box.png");
+    background-size: cover;
+	background-attachment: fixed;
 }
 
 #nav-bar{
@@ -96,7 +103,7 @@ iframe{
 /*Home Page - Services Box*/
 
 .services-box{
-    background-image: url("../images/services-box.png");
+    background-image: url("../images/services-box-v3.png");
     background-size: cover;
 }
 
@@ -231,6 +238,16 @@ iframe{
     display: flex;
     border-radius: 0.5rem;
 }
+
+article::before{
+	  display: block; 
+	  content: " "; 
+	  margin-top: -80px; 
+	  height: 80px; 
+	  visibility: hidden; 
+	  pointer-events: none;
+}
+
 
 /*Small devices - landscape phones, 576px and up */
 @media(min-width: 565px){
